@@ -1,0 +1,21 @@
+a {
+    background-color: var(--color-pink);
+    text-decoration: none;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+.button {
+    display: inline-block;
+    padding-inline: 15px;
+    padding-block: 10px;
+    border-radius: 18px;
+    color: white;
+    transition: background 150ms ease-in-out;
+}
+
+.button:hover {
+    background-color: var(--color-light-gray);
+    color: var(--color-pink);
+    transition: background 150ms ease-in-out;
+}

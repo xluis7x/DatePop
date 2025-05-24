@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-pink: hsl(321, 76%, 72%);
+    --color-light-pink: hsl(320, 100%, 91%);
+    --color-gray-pink: hsl(322, 100%, 87%);
+    --color-light-gray: hsla(0, 0%, 85%, 0.6);
+}
+
+/* open-sans-regular - hebrew */
+@font-face {
+  font-display: swap;  
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v40-hebrew-regular.woff2') format('woff2'); 
+}
+/* open-sans-800 - hebrew */
+@font-face {
+  font-display: swap; 
+  font-family: 'Open Sans Bold';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v40-hebrew-800.woff2') format('woff2'); 
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); 
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Open Sans Bold";
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    margin: 40px;
+    opacity: 0%;
+}
+
+strong {
+    color: var(--color-pink);
+}
+
+.footer p {
+    text-align: center;
+    background-color: var(--color-pink);
+    color: white;
+    font-style: italic;
+    margin: 0px;
+    padding: 20px;
+}

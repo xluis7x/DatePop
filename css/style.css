@@ -1,0 +1,83 @@
+@import url("../css/global.css");
+@import url("../css/button.css");
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 35px;
+    margin-block-start: 10px;
+}
+
+.h1 {
+    text-align: end;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 60px;
+    margin-inline: 40px;
+    gap: 10px;
+    align-items: center;
+}
+
+.section_one {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-inline: 40px 15px;
+}
+
+.date {
+    border-radius: 8% 22%;
+}
+
+.cards {
+    background-color: var(--color-light-gray);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.userPhotos {
+    margin-inline:  auto;
+    margin-block-end: 25px;
+    border-radius: 6px;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.find {
+    display:flex;
+    justify-content: center;
+    margin-inline: auto;
+    width: 140px;
+}
+
+
+@media (min-width: 1200px) {
+    .hero {
+        margin-inline: 120px;
+    }
+    .date {
+    margin-inline-start: 80px;
+    }
+    .h2 {
+    margin-block-start: 70px;
+    }
+    .couple {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 10px;
+    margin-inline: 40px;
+    justify-content: center;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+}
