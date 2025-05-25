@@ -1,5 +1,4 @@
 @import url("../css/global.css");
-@import url("../css/button.css");
 
 .header {
     display: flex;
@@ -27,7 +26,11 @@
     justify-content: center;
     gap: 50px;
     align-items: center;
-    margin-inline: 40px 15px;
+    background-color: var(--color-light-gray);
+}
+
+.section_child{
+    margin-inline: 40px;
 }
 
 .date {
@@ -55,8 +58,21 @@
     justify-content: center;
     margin-inline: auto;
     width: 140px;
+    border: none;
+    background-color: var(--color-pink);
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 600;
 }
 
+.footer p {
+    text-align: center;
+    background-color: var(--color-pink);
+    color: white;
+    font-style: italic;
+    margin: 0px;
+    padding: 20px;
+}
 
 @media (min-width: 1200px) {
     .hero {
@@ -71,7 +87,7 @@
     .couple {
     display: grid;
     grid-template-columns: 300px 300px 300px;
-    gap: 10px;
+    gap: 40px;
     margin-inline: 40px;
     justify-content: center;
     }
