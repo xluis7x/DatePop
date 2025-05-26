@@ -23,13 +23,16 @@ function displayUser1(user_1) {
   const gender = document.getElementById("opt-one");
   const age = document.getElementById("opt-one1");
   const nationality = document.getElementById("opt-one2");
+  const email = document.getElementById("opt-one3");
+  const phone = document.getElementById("opt-one4");
 
   img.setAttribute('src', `${user_1.picture.large}`)
   name.innerText = `Name: ${user_1.name.title}. ${user_1.name.first} ${user_1.name.last}.`
   gender.innerText = `Gender: ${user_1.gender}.`
   age.innerText = `Age: ${user_1.dob.age}.`
   nationality.innerText = `Nationality: ${user_1.nat} | ${user_1.location.country}.`
-
+  email.innerText = `Email: ${user_1.email}.`
+  phone.innerText = `Phone: ${user_1.phone}.`
 }
 
 function displayUser2(user_2) {
@@ -38,12 +41,16 @@ function displayUser2(user_2) {
   const gender_2 = document.getElementById("opt-two");
   const age_2 = document.getElementById("opt-two1");
   const nationality_2 = document.getElementById("opt-two2");
+  const email_2 = document.getElementById("opt-two3");
+  const phone_2 = document.getElementById("opt-two4");
 
   img_2.setAttribute('src', `${user_2.picture.large}`)
   name_2.innerText = `Name: ${user_2.name.title}. ${user_2.name.first} ${user_2.name.last}.`
   gender_2.innerText = `Gender: ${user_2.gender}.`
   age_2.innerText = `Age: ${user_2.dob.age}.`
   nationality_2.innerText = `Nationality: ${user_2.nat} | ${user_2.location.country}.`
+  email_2.innerText = `Email: ${user_2.email}.`
+  phone_2.innerText = `Phone: ${user_2.phone}.`
 }
 
 function displayUser3(user_3) {
@@ -52,12 +59,16 @@ function displayUser3(user_3) {
   const gender_3 = document.getElementById("opt-three");
   const age_3 = document.getElementById("opt-three1");
   const nationality_3 = document.getElementById("opt-three2");
+  const email_3 = document.getElementById("opt-three3");
+  const phone_3 = document.getElementById("opt-three4");
 
   img_3.setAttribute('src', `${user_3.picture.large}`)
   name_3.innerText = `Name: ${user_3.name.title}. ${user_3.name.first} ${user_3.name.last}.`
   gender_3.innerText = `Gender: ${user_3.gender}.`
   age_3.innerText = `Age: ${user_3.dob.age}.`
   nationality_3.innerText = `Nationality: ${user_3.nat} | ${user_3.location.country}.`
+  email_3.innerText = `Email: ${user_3.email}.`
+  phone_3.innerText = `Phone: ${user_3.phone}.`
 }
 
 getRandomUser();
